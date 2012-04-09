@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	text-align:center;
+	margin: 0 auto;
+	background-color:#FFF;
+	width:1000px;
+	font-size:14px;
+	font-family:"宋体";
+}
+#big{
+	margin:0 auto;
+	width:1000px;
+}
+
+#IndexLeft{
+	width:400px;
+	height:652px;
+	float:left;
+}
+#IndexRight{
+	width:600px;
+	height:652px;
+	float:left;
+}
+#FootBottom{
+	float:left;
+	width:1000px;
+	height:49px;
+}
+#ListBigDiv{
+	width:370px;
+	height:606px;
+	float:left;
+	
+	top:46px;
+	left:30px;
+	position:relative;
+}
+#Head{
+	width:600px;
+	height:197px;
+	float:left;
+}
+#HeadImage{
+	width:410px;
+	height:106px;
+	margin:49px 0px 42px 153px;
+	float:left;
+	display:inline;
+	background-image:url(image/head.jpg);
+}
+#ScrollPicDiv{
+	width:574px;
+	height:424px;
+	position:relative;
+	float:left;
+	background-color:#dfdfdf;
+}
+#CopyRight{
+	width:295px;
+	height:35px;
+	margin:14px 344px 0px 361px;
+	*margin:7px 172px 0px 180px;
+}
+#Picture{
+	width:523px;
+	height:348px;
+	top:22px;
+	left:28px;
+	position:relative;
+}
+#Prev{
+	width:90px;
+	height:34px;
+	float:left;
+	top:22px;
+	left:16px;
+	position:relative;
+	background-image:url(image/prev.jpg);
+	cursor:pointer;
+}
+#PrevNextCenter{
+	width:366px;
+	height:54px;
+	position:relative;
+	top:22px;
+	float:left;
+}
+#Next{
+	width:91px;
+	height:36px;
+	float:left;
+	background-image:url(image/next.jpg);
+	top:22px;
+	left:382px;
+	position:relative;
+	cursor:pointer;
+}
+#ListLeft{
+	width:179px;
+	height:595px;
+	padding:11px 0 0 0;
+	float:left;
+}
+#ListRight{
+	width:191px;
+	height:606px;
+	float:left;
+}
+#ListLeft #ListLine1{
+	background-image:url(image/line1.jpg);
+	width:3px;
+	height:27px;
+	margin:0 25px 0 151px;
+}
+.ListButtonCurrent{
+	background-image:url(image/List1.jpg);
+	width:160px;
+	height:43px;
+	float:left;
+	font-size:18px;
+	color:#FFF;
+	text-decoration:none;
+}
+.ListButton{
+	background-image:url(image/List1White.jpg);
+	width:161px;
+	height:43px;
+	float:left;
+	color:#000;
+}
+.ListButton p
+{
+	font-size:26px;
+	margin: 11px 0 0 0;
+}
+.ListButtonCurrent p
+{
+	font-size:26px;
+	margin:10px 0 0 0;
+}
+#ListLeft #ListLine2{
+	background-image:url(image/line22.jpg);
+	width:4px;
+	height:36px;
+	float:left;
+	margin:0 0 0 150px;
+	_margin:0 0 0 75px;
+}
+#ListLeft #ListLine3{
+	background-image:url(image/line33.jpg);
+	width:6px;
+	height:31px;
+	float:left;
+	margin:0 0 0 148px;
+	_margin:0 0 0 74px;
+}
+#ListLeft #ListLogo{
+	background-image:url(image/logo.jpg);
+	width:160px;
+	height:251px;
+	float:left;
+}
+#ListLeft #ListLine4{
+	background-image:url(image/line44.jpg);
+	width:4px;
+	height:14px;
+	margin:0 0 0 150px;
+	_margin:0 0 0 75px;
+	float:left;
+}
+#ListLeft #ListLine5{
+	background-image:url(image/line55.jpg);
+	width:4px;
+	height:39px;
+	margin:0 0 0 150px;
+	_margin:0 0 0 75px;
+	float:left;
+}
+#ListLeft #ListLine6{
+	background-image:url(image/line66.jpg);
+	width:4px;
+	height:25px;
+	margin:0 0 0 150px;
+	_margin: 0 0 0 75px;
+	float:left;
+}
+
+#tab_button_1_list{
+	position:relative;
+	width:182px;
+	height:140px;
+	*left:-35px;
+	display:none;
+}
+#tab_button_2_list{
+	position:relative;
+	width:98px;
+	height:129px;
+	top:85px;
+	*left:-35px;
+	display:none;
+}
+#tab_button_3_list{
+	position:relative;
+	width:182px;
+	height:128px;
+	top:422px;
+	*left:-35px;
+	display:none;
+}
+.ListRightClass1
+{
+	width:152px;
+	height:31px;
+	margin:4px 0 0 0;
+	*margin:2px 0 0 0;
+}
+.ListRightClass1Current{
+	background-image:url(image/List2Class1.jpg);
+	width:152px;
+	height:31px;
+	margin:4px 0 0 0;
+}
+.ListRightClass2
+{
+	width:182px;
+	height:31px;
+	margin:4px 0 0 0;
+}
+.ListRightClass2Current{
+	background-image:url(image/List2Class2.jpg);
+	width:182px;
+	height:31px;
+	margin:4px 0 0 0;
+}
+.ListRightClass3{
+	width:61px;
+	height:32px;
+	margin:4px 0 0 0;
+}
+.ListRightClass3Current{
+	background-image:url(image/List2Class3.jpg);
+	width:61px;
+	height:32px;
+	margin:4px 0 0 0;
+}
+.ListRightClass4{
+	width:95px;
+	height:32px;
+	margin:4px 0 0 0;
+	*margin:2px 0 0 0;
+}
+.ListRightClass4Current{
+	background-image:url(image/ListClass4.jpg);
+	width:95px;
+	height:32px;
+	margin:4px 0 0 0;
+	margin:2px 0 0 0;
+}
+#ListRight p
+{
+	font-size:20px;
+	padding:6px 0 0 0;
+}
+.ListRightClass4Current p
+{
+	color:#FFF;
+}
+.ListRightClass3Current p
+{
+	color:#FFF;
+}
+.ListRightClass2Current p
+{
+	color:#FFF;
+}
+.ListRightClass1Current p
+{
+	color:#FFF;
+}
+#slides {
+	overflow:hidden;
+	position:relative;
+	left:33px;
+	*left:-25px;
+	width:455px;
+	height:336px;
+}
+.clear {clear:both}
+	
+#slides ul {
+	position:relative;
+	left:0;
+	top:0;
+	list-style:none;
+	margin:0;
+	padding:0;	
+	width:1365px;			
+}
+#slides li {
+	width:455px;
+	height:336px;	
+	float:left;
+}
+#ListPageDiv{
+	width:523px;
+	height:348px;
+	border-left-width:28px;
+	border-top-width:22px;
+	border-right-width:23px;
+	border-bottom-width:26px;
+	border-color:#dfdfdf;
+	border-style:solid;
+	position:relative;
+	float:left;
+	background-color:#FFF;
+	overflow:hidden;
+}
+#DetailPageDiv{
+	width:535px;
+	height:348px;
+	border-left-width:28px;
+	border-top-width:22px;
+	border-right-width:11px;
+	border-bottom-width:26px;
+	border-color:#dfdfdf;
+	border-style:solid;
+	position:relative;
+	float:left;
+	background-color:#FFF;
+	overflow-y:scroll;
+}
+#content
+{
+	width:523px;
+	height:328px;
+	float:left;
+	text-align:left;
+}
+.f_left
+{
+	text-align:left;
+	float:left;
+	width:400px;
+	padding:0 0 0 20px;
+}
+#Text
+{
+	text-align:left;
+}
+
+#PagerDiv
+{
+	width:523px;
+	height:20px;
+	float:left;
+}

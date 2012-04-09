@@ -1,0 +1,21 @@
+body{
+	background-image:url(images/vamptile.jpg);
+}
+.contentbg{
+	background:url(images/vamp_2x1.jpg);
+	background-repeat:repeat-y;
+}
+#apDiv1 {
+	position:absolute;
+	left:455px;
+	top:18px;
+	width:357px;
+	height:97px;
+	z-index:1;
+}
+p{
+	text-align:left;
+}
+h2{
+	margin-bottom:-5px;
+}
