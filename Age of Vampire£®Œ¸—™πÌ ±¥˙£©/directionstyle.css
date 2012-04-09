@@ -1,0 +1,18 @@
+body{
+	background-image:url(images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-attachment:fixed;
+}
+#apDiv2 {
+	position:absolute;
+	left:1075px;
+	top:317px;
+	width:193px;
+	height:200px;
+}
+#apDiv2 a:hover{
+	background-image:url(images/logoblink.png);
+}
+
+	

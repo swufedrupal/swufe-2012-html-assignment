@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+div,ul,li
+{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#logo{
+	width:800px;
+	margin:0 auto;
+	background-color:#39C;
+	height:55px;
+	margin-top:40px;
+}
+#logo b1{
+	font-family:楷体;
+	font-weight:bold;
+	font-size:26px;
+	letter-spacing:1em;
+}
+#logo b1:hover{
+	color:#3FC;
+	font-size:30px;
+}
+#logo b2{
+	font-family:"Lucida Console", Monaco, monospace;
+}
+#logo b2:hover{
+	color:#699;
+	font-size:24px;
+}
+#nav{
+	width:800px;
+	height:35px;
+	background:#39C;
+	margin:0 auto;
+	border-top:groove #F00 thin;
+}
+#nav ul{
+	width:800px;
+	float:left;
+	padding:0px;
+}
+#nav ul li{
+	width:120px;
+	height:35px;
+	float:left;
+	list-style:none;
+	margin:0px;
+	text-align:center;
+	line-height:35px;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	font: bold 18px/35px arial;
+}
+#nav ul li a:hover{
+	color:#F90;
+	font-size:24px;
+	background:#36F;
+}
+#banner{
+	width:800px;
+	height:255px;
+	background:url(img/1.jpg) no-repeat;
+	margin:0 auto;
+}
+#content{
+	width:800px;
+	height:600px;
+	background:#69C;
+	margin:0 auto;
+}
+#foodIntro{
+	width:400px;
+	height:600px;
+	background:#BED6FA;
+	float:left;
+}
+#foodIntro ul{
+	width:400px;
+	height:;
+	background:#BED6FA;
+}
+#foodIntro ul li{
+	font-family:"楷体";
+	font-size:16px;
+	font-style:normal;
+	text-indent:2em;
+	padding:0px;
+	margin:20px;
+}
+#foodList{
+	width:400x;
+	height:;
+	background:#3F9;
+	float:left;
+}
+#foodList ul{
+	width:400px;
+	height:600px;
+}
+#foodList ul li{
+	width:400px;
+	height:40px;
+	margin:20px;
+}
+#foodList ul li a{
+	text-decoration:none;
+	font-size:14px;
+	font-family:"楷体";
+	color:#F03;
+	font-weight:800;
+}
+#foodList ul li a:hover{
+	color:#609;
+	font-size:18px;
+}
+#foot{
+	width:800px;
+	height:35px;
+	background:#39C;
+	font-size:14px;
+	color:#F00;
+	text-align:center;
+	line-height:35px;
+	margin:0 auto;
+	margin-bottom:40px;
+}
+#delicious-content{
+	width:800px;
+	height:500px;
+	line-height:500px;
+	background:#39C;
+	font-size:24px;
+	margin:0 auto;
+}

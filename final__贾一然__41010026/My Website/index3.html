@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Sharing your story</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript">
+function transparent(im)
+   {
+   if (!im.transparented && (/\.png/.test(im.src)))
+      {
+      im.transparented = 1;
+      var picture = im.src;
+      var w = im.width;
+      var h = im.height;
+      im.src = "images/spacer.gif";
+      im.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='scale', src='" + picture + "');";
+      im.width = w;
+      im.height = h;
+      }
+   return "transparent";
+   }
+</script>
+</head>
+
+<body>
+	<div id="preview">
+		<div class="preview">
+<img src="images/hometitle.jpg" alt="" width="350" height="110" class="transparent" border="0"  style="position:absolute;left:500px;top:15px" />		
+<img src="images/photo1.jpg" alt="" width="510" height="380" /><br />																
+			<div class="name">
+				<a href="#"><img src="images/arrowleft.gif" alt="" width="7" height="13" /></a>
+				<span>Name Photo</span>
+				<a href="#"><img src="images/arrowright.gif" alt="" width="7" height="13" /></a>
+			</div>
+		</div>
+		<div class="list">
+			<img src="images/title2.png" alt="" width="216" height="44" class="transparent" /><br />
+			<div class="gallery">
+				<a href="#"><img src="images/pic1.jpg" alt="" width="85" height="85" /></a>
+				<a href="#"><img src="images/pic2.jpg" alt="" width="85" height="85" /></a>
+				<a href="#"><img src="images/pic3.jpg" alt="" width="85" height="85" /></a>
+				<a href="#"><img src="images/pic4.jpg" alt="" width="85" height="85" /></a>
+				<a href="#"><img src="images/pic5.jpg" alt="" width="85" height="85" /></a>
+				<a href="#"><img src="images/pic6.jpg" alt="" width="85" height="85" /></a>
+			</div>
+			<div class="pages">
+				<a href="#"><img src="images/sarrowleft.png" alt="" width="5" height="10" class="transparent" /></a>
+				<span>
+					<a href="#" id="active">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">8</a>
+					<a href="#">9</a>
+				</span>
+				<a href="#"><img src="images/sarrowright.png" alt="" width="5" height="10" class="transparent" /></a>
+			</div>
+		</div>
+	</div>
+	<div id="menu">
+		<img src="images/menu.jpg" alt="" width="427" height="25" border="0" usemap="#Map" class="transparent" />
+        <map name="Map">
+          <area shape="rect" coords="50,7,104,19" href="index.html">
+          <area shape="rect" coords="117,7,179,19" href="index2.html">
+          <area shape="rect" coords="195,7,267,19" href="index3.html">
+          <area shape="rect" coords="280,7,310,19" href="index3.html">
+          <area shape="rect" coords="325,7,372,19" href="index3.html">
+        </map>
+	</div>
+</body>
+</html>

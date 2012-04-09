@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Sharing Your Story</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript">
+function transparent(im)
+   {
+   if (!im.transparented && (/\.png/.test(im.src)))
+      {
+      im.transparented = 1;
+      var picture = im.src;
+      var w = im.width;
+      var h = im.height;
+      im.src = "images/spacer.gif";
+      im.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='scale', src='" + picture + "');";
+      im.width = w;
+      im.height = h;
+      }
+   return "transparent";
+   }
+</script>
+</head>
+
+<body>
+        <div id="home title">
+		<img src="images/hometitle.jpg" alt="" width="350" height="110" class="transparent" border="0"  style="position:absolute;left:500px;top:15px" /><br />							</div>	
+<div id="introduction">  
+<img src="images/content1.jpg" alt="" width="750" height="400" class="transparent" border="0" style="position:absolute;left:280px;top:180px"/>	
+<img src="images/p1.jpg" alt="" width="250" height="300" class="transparent" align="center"border="0" style="position:absolute;left:250px;top:580px"/>
+        <img src="images/p2.jpg" alt="" width="400" height="300" class="transparent" align="center" border="0" style="position:absolute;left:500px;top:580px"/>
+        <img src="images/p3.jpg" alt="" width="250" height="300" class="transparent" align="center" border="0" style="position:absolute;left:900px;top:580px"/>		
+</div>
+	<div id="menu">
+		<img src="images/menu.jpg" alt="" width="627" height="35" border="0" usemap="#Map" class="transparent" style="position:absolute;left:370px;top:130px"/>
+        <map name="Map">
+          <area shape="rect" coords="50,7,104,19" href="index.html">
+          <area shape="rect" coords="117,7,179,19" href="index2.html">
+          <area shape="rect" coords="195,7,267,19" href="index3.html">
+          <area shape="rect" coords="280,7,310,19" href="index3.html">
+          <area shape="rect" coords="325,7,372,19" href="index3.html">
+        </map>
+	</div>
+	<div class="enter">
+		<a href="index2.html"><img src="images/enter.png" alt="" width="65" height="32" class="transparent" /></a>
+	
+</body>
+</html>

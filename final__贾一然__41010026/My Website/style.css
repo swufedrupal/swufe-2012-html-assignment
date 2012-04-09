@@ -1,0 +1,131 @@
+*{
+margin:0px;
+padding:0px;
+}
+img{border:0px;}
+html{
+width:100%;
+height:100%;
+background-color:#080808;
+}
+body{
+width:1000px;
+height:100%;
+margin:0 auto;
+background-image:url(images/bg.jpg);
+background-position:top;
+background-repeat:no-repeat;
+}
+html > body{
+height:auto;
+min-height:100%
+}
+* html .transparent { background:expression(transparent(this)); }
+#photo{
+padding:117px 0 0 223px;
+}
+#menu{
+margin:9px auto 0 auto;
+width:427px;
+}
+.enter{
+text-align:center;
+width:1000px;
+padding:17px 0 0 0
+}
+
+#about{
+padding:146px 0 0 163px;
+}
+#about div{
+width:695px;
+height:375px;
+background-image:url(images/about_bg.jpg);
+background-position:top left;
+background-repeat:no-repeat;
+padding:50px 0 0 0;
+}
+.pic{
+margin:3px 25px 0 80px;
+float:left
+}
+.title{
+margin:0 0 16px 255px;
+}
+#about p{
+display:block;
+float:left;
+width:355px;
+font-family:Tahoma, Helvetica, sans-serif;
+font-size:15px;
+color:#646341;
+padding:0 0 13px 0
+}
+#preview{
+padding:140px 0 25px 95px;
+width:772px;
+overflow:hidden;
+}
+.preview{
+background-image:url(images/photo_bg.jpg);
+background-position:top left;
+background-repeat:no-repeat;
+width:507px;
+height:390px;
+float:left;
+padding:16px 34px 0 9px;
+overflow:hidden;
+}
+.name{
+width:500px;
+padding:13px 0 0 29px;
+line-height:13px;
+float:left;
+overflow:hidden;
+}
+.name span{
+font-family:Tahoma, Helvetica, sans-serif;
+font-size:15px;
+color:#FFFFFF;
+width:433px;
+text-align:center;
+display:block;
+float:left
+}
+.name a{
+display:block;
+float:left
+}
+.list{
+width:216px;
+float:left;
+}
+.gallery img{
+border:5px solid #fff;
+float:left;
+margin:0 6px 12px 7px
+}
+.pages{
+font-family:Tahoma, Helvetica, sans-serif;
+font-size:10px;
+color:#FFFFFF;
+padding:0 0 0 28px;
+}
+.pages img{float:left}
+.pages span a{
+color:#FFFFFF;
+text-decoration:none;
+padding:0 2px
+}
+.pages span a:visited{color:#FFFFFF}
+.pages span a:hover{color:#B08A24}
+#active{
+color:#B08A24
+}
+.pages span{
+line-height:11px;
+display:block;
+float:left;
+width:155px;
+text-align:center
+}

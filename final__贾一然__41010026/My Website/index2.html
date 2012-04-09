@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<title>Sharing your story</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript">
+function transparent(im)
+   {
+   if (!im.transparented && (/\.png/.test(im.src)))
+      {
+      im.transparented = 1;
+      var picture = im.src;
+      var w = im.width;
+      var h = im.height;
+      im.src = "images/spacer.gif";
+      im.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod='scale', src='" + picture + "');";
+      im.width = w;
+      im.height = h;
+      }
+   return "transparent";
+   }
+</script>
+</head>
+
+<body>
+	<div id="about">
+		<div>
+		<img src="images/hometitle.jpg" alt="" width="350" height="110" class="transparent" border="0"  style="position:absolute;left:500px;top:15px" /><br />						
+			<img src="images/p4.jpg" alt="" width="200" height="250" class="pic" />
+			<p>回忆就像是赴一场与你的约会。我不知道能不能写完它，也不知道在哪里完结比较好。没想好要怎么称呼你，那么就用你来叙述吧。你在我人生中以秘密名字记下来，虽然某一度轰轰烈烈占据了我大半心脏。是的，我还留下那么一下部分，里面装着我对未来的担忧，想着怎么和朋友玩乐，奶茶选抹茶好还是红茶好。我在爱着别人的同时，也是不忘记要给自己留下一点。为此被人挑出来攻击的时候，我理直气壮把它解释为习惯，猥琐地希望能得到对方的谅解。后来我发现在成年以后我们翻看过去的希望很渺茫，被别人翻开的机会就更加渺小。所以我没用太多的时间去想你。可是，你现在仍然是我惟一一个想用“我们”去表明你和我的人。 </p>
+			<p>——擦光所有火柴难令气氛如从前闪耀，至少感激当日陪着我开的甜蜜玩笑。我经常活得如此快乐，在快乐的时候，也会想象你是否精彩的活。
+ </p>
+		</div>
+	</div>
+	<div id="menu">
+		<img src="images/menu.jpg" alt="" width="427" height="25" border="0" usemap="#Map" class="transparent" />
+        <map name="Map">
+          <area shape="rect" coords="50,7,104,19" href="index.html">
+          <area shape="rect" coords="117,7,179,19" href="index2.html">
+          <area shape="rect" coords="195,7,267,19" href="index3.html">
+          <area shape="rect" coords="280,7,310,19" href="index3.html">
+          <area shape="rect" coords="325,7,372,19" href="index3.html">
+        </map>
+	</div>
+	
+</body>
+</html>
